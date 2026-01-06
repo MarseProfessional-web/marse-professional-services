@@ -1,0 +1,179 @@
+
+   <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Marse Professional Services</title>
+
+  <meta name="description" content="Strengthening enterprises through corporate and business training, strategic advisory, and international education guidance—with measurable impact.">
+
+  <meta property="og:title" content="Marse Professional Services">
+  <meta property="og:description" content="Enterprise-focused corporate training, strategic advisory, and international education consulting—with measurable impact.">
+  <meta property="og:type" content="website">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', Arial, sans-serif;
+      background: #0B1F17;
+      color: #F8FAF9;
+      line-height: 1.6;
+    }
+    header {
+      background: #0B1F17;
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+      padding: 14px 20px;
+    }
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 20px;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+    .brand img {
+      height: 48px;
+    }
+    h1, h2 {
+      font-family: 'Poppins', Arial, sans-serif;
+    }
+    .hero {
+      padding: 60px 20px;
+    }
+    .hero h1 {
+      font-size: 40px;
+      margin-bottom: 12px;
+    }
+    .hero p {
+      max-width: 700px;
+      color: rgba(248,250,249,0.8);
+    }
+    .cta {
+      margin-top: 20px;
+    }
+    .btn {
+      display: inline-block;
+      background: #1F7A5A;
+      color: #ffffff;
+      padding: 12px 20px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: 600;
+      margin-right: 10px;
+    }
+    .btn.secondary {
+      background: transparent;
+      border: 1px solid rgba(255,255,255,0.3);
+    }
+    section {
+      padding: 50px 20px;
+      border-top: 1px solid rgba(255,255,255,0.08);
+    }
+    .grid {
+      display: grid;
+      gap: 20px;
+    }
+    @media (min-width: 768px) {
+      .grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+    .card {
+      background: rgba(255,255,255,0.05);
+      padding: 20px;
+      border-radius: 16px;
+      border: 1px solid rgba(255,255,255,0.08);
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: rgba(248,250,249,0.6);
+      border-top: 1px solid rgba(255,255,255,0.1);
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="container brand">
+    <img src="marse-logo.png" alt="Marse Professional Services Logo">
+    <strong>Marse Professional Services</strong>
+  </div>
+</header>
+
+<section class="hero container">
+  <h1>Strengthening Enterprises for Sustainable Results</h1>
+  <p>
+    Strengthening enterprises through corporate and business training, strategic advisory,
+    and international education guidance—with measurable impact.
+  </p>
+
+  <div class="cta">
+    <a class="btn" href="https://wa.me/2348088312687" target="_blank">WhatsApp Us</a>
+    <a class="btn secondary" href="mailto:marseprofessionalservices@outlook.com">Email Us</a>
+  </div>
+</section>
+
+<section class="container">
+  <h2>What We Do</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Corporate & Business Training</h3>
+      <p>
+        Practical, enterprise-focused training programs designed to strengthen organizational
+        capability, leadership alignment, and execution.
+      </p>
+    </div>
+    <div class="card">
+      <h3>Strategic Business Advisory</h3>
+      <p>
+        Advisory support that helps organizations clarify strategy, improve performance,
+        and navigate growth and transformation.
+      </p>
+    </div>
+    <div class="card">
+      <h3>International Education Consulting</h3>
+      <p>
+        Guidance for institutions and individuals on international study pathways,
+        partnerships, and global education opportunities.
+      </p>
+    </div>
+    <div class="card">
+      <h3>Research-Informed Practice</h3>
+      <p>
+        Evidence-based insights translated into practical solutions for enterprises,
+        institutions, and decision-makers.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="container">
+  <h2>Contact</h2>
+  <p>
+    📞 WhatsApp: <a href="https://wa.me/2348088312687" target="_blank" style="color:#7AC7A6;">08088312687</a><br>
+    ✉ Email: <a href="mailto:marseprofessionalservices@outlook.com" style="color:#7AC7A6;">marseprofessionalservices@outlook.com</a>
+  </p>
+</section>
+
+<footer>
+  © <span id="year"></span> Marse Professional Services. All rights reserved.
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
